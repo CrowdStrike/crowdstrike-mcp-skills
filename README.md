@@ -11,6 +11,7 @@ AI coding assistant skills for the [CrowdStrike MCP Server](#) apps.
 ### Prerequisites
 
 - **CrowdStrike Account** with API Client credentials
+- **Claude Code** — required to run the `/plugin` and `/crowdstrike-mcp:setup` slash commands
 - **AI Coding Assistant**: Claude Code, Codex, Copilot CLI, Cursor, Antigravity CLI, or any tool that supports loading reference documentation
 
 ### Installation & Setup
@@ -22,7 +23,7 @@ export FALCON_MEMBER_CID=<your-member-cid>  # optional
 ```
 
 **2. Add the marketplace**
-`/plugin marketplace add git@github.com:CrowdStrike/falcon-mcp-skills.git`
+```/plugin marketplace add git@github.com:CrowdStrike/falcon-mcp-skills.git```
 
 **3. Install the plugin**
 ```
