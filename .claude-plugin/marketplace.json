@@ -1,0 +1,11 @@
+{
+  "name": "falcon-mcp-marketplace",
+  "owner": { "name": "CrowdStrike" },
+  "plugins": [
+    {
+      "name": "crowdstrike-mcp-setup",
+      "source": "./",
+      "description": "CrowdStrike skills for setting up and connecting to the CrowdStrike MCP server"
+    }
+  ]
+}
