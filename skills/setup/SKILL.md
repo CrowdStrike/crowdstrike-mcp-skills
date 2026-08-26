@@ -12,7 +12,7 @@ Configure the CrowdStrike Falcon MCP server for this project by:
 
 1. Verifying the required environment variables are set
 2. Running `mcp-server-setup.sh` to exchange credentials, detect the user's
-   Falcon region, and write a `.mcp.json` file in the current directory
+   Falcon region, and write a `.mcp.json` file in the plugin's directory
 3. Confirming successful installation
 
 The skill should be conversational but efficient — a single user message
