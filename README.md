@@ -34,6 +34,7 @@ export FALCON_MEMBER_CID=<your-member-cid>  # optional
 ```
 /reload-plugins
 ```
+Note: If the plugin is still not available after this, try restarting the Claude session.
 
 **5. Run the setup skill**
 ```
