@@ -1,5 +1,5 @@
 {
-  "name": "falcon-mcp-marketplace",
+  "name": "crowdstrike-mcp-marketplace",
   "owner": { "name": "CrowdStrike" },
   "plugins": [
     {
