@@ -11,7 +11,6 @@ AI coding assistant skills for the [CrowdStrike MCP Server](#) apps.
 ### Prerequisites
 
 - **CrowdStrike Account** with API Client credentials
-- **Claude Code** — required to run the `/plugin` and `/crowdstrike-mcp:setup` slash commands
 - **AI Coding Assistant**: Claude Code
 
 ### Installation & Setup
