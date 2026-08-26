@@ -46,12 +46,6 @@ export FALCON_MEMBER_CID=<your-member-cid>  # optional
 /reload-plugins --force
 ```
 
-## Skills
-
-| Skill                     | Purpose                                                                                                  |
-|---------------------------|----------------------------------------------------------------------------------------------------------|
-| `crowdstrike-mcp:setup`   | Sets up the CrowdStrike MCP server with client credentials                                               |
-
 ## License
 
 See [LICENSE](LICENSE) for details.

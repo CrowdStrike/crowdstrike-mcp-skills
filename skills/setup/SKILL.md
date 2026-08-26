@@ -1,5 +1,5 @@
 ---
-name: crowdstrike-mcp:setup
+name: setup
 description: Set up the CrowdStrike Falcon MCP server. Checks for required credentials, runs mcp-server-setup.sh to detect the correct regional URL and write .mcp.json, then confirms successful installation.
 allowed-tools: Bash
 model: sonnet
