@@ -5,7 +5,19 @@
     {
       "name": "crowdstrike-mcp",
       "source": "./",
-      "description": "CrowdStrike skills for setting up and connecting to the CrowdStrike MCP server"
+      "description": "CrowdStrike skills for setting up and connecting to the CrowdStrike MCP server",
+      "version": "1.0.0",
+      "author": {
+        "name": "CrowdStrike"
+      },
+      "license": "MIT",
+      "keywords": [
+        "crowdstrike",
+        "falcon",
+        "mcp",
+        "claude",
+        "security"
+      ]
     }
   ]
 }
