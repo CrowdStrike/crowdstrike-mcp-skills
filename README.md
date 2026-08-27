@@ -78,8 +78,10 @@ The plugin is now installed and connected. To verify, ask your AI application a 
 
 The CrowdStrike MCP plugin automatically manages authentication with CrowdStrike MCP using your API client credentials. During setup, the plugin obtains an OAuth 2.0 access token and configures the MCP server connection. All requests to CrowdStrike MCP include a valid bearer token in the Authorization header.
 
-Access tokens expire after 30 minutes. In Claude Code 2.119.3 and later, the plugin automatically obtains a new token before the current token expires. Earlier supported versions do not support automatic token renewal. After the token expires, run this command to reconnect to CrowdStrike MCP to obtain a new token:  
+Access tokens expire after 30 minutes. In Claude Code 2.119.3 and later, the plugin automatically obtains a new token before the current token expires. Earlier supported versions do not support automatic token renewal. After the token expires, run this command to reconnect to CrowdStrike MCP to obtain a new token:
+```
 /mcp reconnect plugin:crowdstrike-mcp:crowdstrike
+```
 
 ## License
 
