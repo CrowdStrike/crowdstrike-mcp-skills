@@ -1,0 +1,16 @@
+{
+  "name": "crowdstrike-mcp",
+  "description": "Configure the CrowdStrike Falcon MCP server with OAuth2 authentication using client credentials",
+  "version": "0.1.0",
+  "author": {
+    "name": "CrowdStrike"
+  },
+  "license": "MIT",
+  "keywords": [
+    "crowdstrike",
+    "falcon",
+    "mcp",
+    "oauth2",
+    "security"
+  ]
+}
