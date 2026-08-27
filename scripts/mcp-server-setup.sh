@@ -86,7 +86,8 @@ echo "MCP server URL: ${MCP_URL}" >&2
 # ---------------------------------------------------------------------------
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 PLUGIN_ROOT="${PLUGIN_ROOT:-$(dirname "${SCRIPT_DIR}")}"
-OAUTH_SCRIPT="${PLUGIN_ROOT}/bin/crowdstrike-oauth2token.sh"
+PLUGIN_ROOT="${PLUGIN_ROOT%/}"
+OAUTH_SCRIPT="${PLUGIN_ROOT}/scripts/crowdstrike-oauth2token.sh"
 
 if [[ ! -f "${OAUTH_SCRIPT}" ]]; then
   echo "ERROR: Cannot locate crowdstrike-oauth2token.sh at '${OAUTH_SCRIPT}'." >&2
