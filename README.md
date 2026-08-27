@@ -23,7 +23,7 @@ export FALCON_MEMBER_CID=<your-member-cid>  # optional
 
 **2. Add the marketplace**
 ```
-/plugin marketplace add CrowdStrike/crowdstrike-mcp-skills.git
+/plugin marketplace add CrowdStrike/crowdstrike-mcp-skills
 ```
 
 **3. Install the plugin**
