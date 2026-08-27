@@ -11,7 +11,7 @@ For more info about CrowdStrike MCP, see the [CrowdStrike MCP documentation](htt
 ## Prerequisites
 
 - Supported AI application:
-    - Claude Code v1.0.119 or later
+    - Claude Code v2.1.69 or later
 - Falcon API client with the scopes and permissions required for the tools you want to use. For more info, see [Managing your API clients](https://docs.crowdstrike.com/r/en-US/kgsgkjd3/va186f1a).
 
 ## Connect to CrowdStrike MCP
