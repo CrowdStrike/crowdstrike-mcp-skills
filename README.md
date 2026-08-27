@@ -2,7 +2,7 @@
 
 # Falcon MCP Skills
 
-[![Version](https://img.shields.io/badge/version-1.5.0-blue)](https://github.com/CrowdStrike/crowdstrike-mcp-skills/releases/tag/v1.0.0)
+[![Version](https://img.shields.io/badge/version-1.0.0-blue)](https://github.com/CrowdStrike/crowdstrike-mcp-skills/releases/tag/v1.0.0)
 
 AI coding assistant skills for the [CrowdStrike MCP Server](#) apps.  
 
@@ -22,11 +22,13 @@ export FALCON_MEMBER_CID=<your-member-cid>  # optional
 ```
 
 **2. Add the marketplace**
-```/plugin marketplace add git@github.com:CrowdStrike/crowdstrike-mcp-skills.git```
+```
+/plugin marketplace add CrowdStrike/crowdstrike-mcp-skills
+```
 
 **3. Install the plugin**
 ```
-`/plugin install crowdstrike-mcp-skills`
+/plugin install crowdstrike-mcp@crowdstrike-mcp-skills-marketplace
 ```
 
 **4. Reload plugins**
