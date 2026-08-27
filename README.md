@@ -4,7 +4,7 @@
 
 [![Version](https://img.shields.io/badge/version-1.0.0-blue)](https://github.com/CrowdStrike/crowdstrike-mcp-skills/releases/tag/v1.0.0)
 
-The CrowdStrike MCP connects supported AI applications to CrowdStrike MCP. The included setup skill authenticates with CrowdStrike MCP and configures the MCP connection using your exported API client credentials.
+The CrowdStrike MCP Skills connect supported AI applications to CrowdStrike MCP. The included setup skill authenticates with CrowdStrike MCP and configures the MCP connection using your exported API client credentials.
 
 For more info about CrowdStrike MCP, see the [CrowdStrike MCP documentation](https://docs.crowdstrike.com/access?ft:originId=tefc5682).
 
