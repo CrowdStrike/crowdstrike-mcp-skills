@@ -2,7 +2,7 @@
 
 # Falcon MCP Skills
 
-[![Version](https://img.shields.io/badge/version-1.5.0-blue)](https://github.com/CrowdStrike/crowdstrike-mcp-skills/releases/tag/v1.0.0)
+[![Version](https://img.shields.io/badge/version-1.0.0-blue)](https://github.com/CrowdStrike/crowdstrike-mcp-skills/releases/tag/v1.0.0)
 
 AI coding assistant skills for the [CrowdStrike MCP Server](#) apps.  
 
