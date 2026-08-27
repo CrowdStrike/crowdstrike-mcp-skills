@@ -31,8 +31,8 @@ Environment check:
 Existing .mcp.json: !`[[ -f "${CLAUDE_PLUGIN_ROOT}/.mcp.json" ]] && echo "EXISTS" || echo "NOT FOUND"`
 
 Scripts:
-- ${CLAUDE_PLUGIN_ROOT}/bin/mcp-server-setup.sh
-- ${CLAUDE_PLUGIN_ROOT}/bin/crowdstrike-oauth2token.sh
+- ${CLAUDE_PLUGIN_ROOT}/scripts/mcp-server-setup.sh
+- ${CLAUDE_PLUGIN_ROOT}/scripts/crowdstrike-oauth2token.sh
 </context>
 
 <process>
@@ -69,7 +69,7 @@ Do not proceed further.
 Execute the setup script:
 
 ```bash
-PLUGIN_ROOT="${CLAUDE_PLUGIN_ROOT}" "${CLAUDE_PLUGIN_ROOT}/bin/mcp-server-setup.sh"
+PLUGIN_ROOT="${CLAUDE_PLUGIN_ROOT}" "${CLAUDE_PLUGIN_ROOT}/scripts/mcp-server-setup.sh"
 ```
 
 Show the script's stdout/stderr output to the user verbatim.
